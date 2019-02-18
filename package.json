@@ -1,6 +1,6 @@
 {
   "name": "floatkeydictionary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "浮点型Key字典容器",
   "main": "FloatKeyDictionary.js",
   "scripts": {
