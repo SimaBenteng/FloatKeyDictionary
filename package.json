@@ -1,0 +1,24 @@
+{
+  "name": "floatkeydictionary",
+  "version": "1.0.0",
+  "description": "浮点型Key字典容器",
+  "main": "FloatKeyDictionary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://simabenteng@github.com/SimaBenteng/FloatKeyDictionary.git"
+  },
+  "keywords": [
+    "js",
+    "map",
+    "dictionary"
+  ],
+  "author": "simabenteng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimaBenteng/FloatKeyDictionary/issues"
+  },
+  "homepage": "https://github.com/SimaBenteng/FloatKeyDictionary#readme"
+}
