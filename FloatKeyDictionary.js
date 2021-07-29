@@ -54,7 +54,7 @@ class FloatKeyDictionary extends Map
 			}
 		});
 	}
-	
+
 	/**
 	 * @param objData key必须为number类型
 	 * @returns {*|void}
@@ -132,8 +132,6 @@ class FloatKeyDictionary extends Map
 			{
 				return v >= keyNumber;
 			});
-			if (key == null)
-				key = allKeys[allKeys.length - 1];
 		}
 		else if (upOrDown === 'down')
 		{
@@ -145,9 +143,9 @@ class FloatKeyDictionary extends Map
 			{
 				return v <= keyNumber;
 			});
-			if (key == null)
-				key = allKeys[0];
 		}
+		if (key === undefined)
+			key = allKeys[allKeys.length - 1];
 		return this.get(key);
 	}
 }
