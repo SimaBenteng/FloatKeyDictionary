@@ -1,7 +1,7 @@
 {
   "name": "floatkeydictionary",
-  "version": "1.0.2",
-  "description": "浮点型Key字典容器",
+  "version": "1.0.3",
+  "description": "浮点型Key字典容器。A dictionary container using float key.",
   "main": "FloatKeyDictionary.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,7 @@
     "dictionary"
   ],
   "author": "simabenteng",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SimaBenteng/FloatKeyDictionary/issues"
   },
