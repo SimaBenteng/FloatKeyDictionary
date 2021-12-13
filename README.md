@@ -1,4 +1,4 @@
-## Usage
+## Import
 - Install the library
 ```
 npm install floatkeydictionary --save
@@ -8,7 +8,7 @@ npm install floatkeydictionary --save
 const FloatKeyDictionary = require('floatkeydictionary');
 ```
 
-##Create
+## Create
 - Create a empty dictionary
 ```javascript
 const dic = FloatKeyDictionary.Create();
@@ -18,11 +18,11 @@ const dic = FloatKeyDictionary.Create();
 const dic = FloatKeyDictionary.CreateWithData({1: 'anyValue', 1.1: 'anyValue', 5.0: 'anyValue'...});
 ```
 
-##Getter functions
+## Getter functions
 - getCloseKeyUp(keyNumber)
 - getCloseKeyDown(keyNumber)
 
-###Example
+### Example
 ```javascript
 
 const dic = FloatKeyDictionary.CreateWithData({1: 'value1', 1.1: 'value1.1', 5.0: 'value5.0'});
